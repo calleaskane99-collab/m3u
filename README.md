@@ -7,7 +7,7 @@ to use this you are required to get your debrid io api key <br>
 Navigate to https://debridio.com/addons/tv select usa TV and then copy install url. <br>
 you will then get a url like https://tv-addon.debridio.com/dGhpc2lzdG90YWxseW15YXBpa2V5d29yZHN3b3Jkc3dvcmRz=/manifest.json <br>
 the string ``` dGhpc2lzdG90YWxseW15YXBpa2V5d29yZHN3b3Jkc3dvcmRz=``` would be the api key in my case. <br>
-you then edit the `example.env` file and add the api key along with changing the default secret. <br>
+you then edit the `example.env` file and add the api key along with changing the default secret. **do not forget to rename file to `.env`** <br>
 ``` git clone https://github.com/Baggette/debrdiotv-to-m3u/ ``` <br>
 ``` cd debridiotv-to-m3u ``` <br>
 ``` npm i ``` <br>
