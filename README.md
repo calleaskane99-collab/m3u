@@ -13,7 +13,7 @@ you then edit the `example.env` file and add the api key along with changing the
 ``` npm i ``` <br>
 ``` node . ``` <br>
 this will then start a webserver on port 9697 by default. <br>
-if you access http://example.com:9697/defaultsecret/refresh it wil pull the usa json and parse it <br>
+if you access http://example.com:9697/defaultsecret/refresh it wil pull the usa json and parse it (its worth noting you do not need to reaccess the url over and over everytime you need to get the m3u only if the m3u breaks or if its the first time running the script will you need to refresh it)<br>
 it will then make a m3u shortly thereafter and it will be accessible at http://example.com:9697/defaultsecret/channels.m3u <br>
 
 # Contributing 
