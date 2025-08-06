@@ -4,11 +4,13 @@ it is accessible from a url once installed. <br>
 
 # usage 
 to use this you are required to get your debrid io api key <br>
+additionally this will require node js 22.18.0 (it may work on other versions however I only support this version.) <br>
 Navigate to https://debridio.com/addons/tv select usa TV and then copy install url. <br>
 you will then get a url like https://tv-addon.debridio.com/dGhpc2lzdG90YWxseW15YXBpa2V5d29yZHN3b3Jkc3dvcmRz=/manifest.json <br>
 the string ``` dGhpc2lzdG90YWxseW15YXBpa2V5d29yZHN3b3Jkc3dvcmRz=``` would be the api key in my case. <br>
 ``` git clone https://github.com/Baggette/debrdiotv-to-m3u/ ``` <br>
 ``` cd debridiotv-to-m3u ``` <br>
+You will need to create a folder named `m3u` in the `debridio-to-m3u` foler otherwise you will get an error.
 ``` npm i ``` <br>
 ``` node . ``` <br>
 this will then start a webserver on port 9697 by default. <br>
