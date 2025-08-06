@@ -1,5 +1,5 @@
 node_modules/
-m3u/
+m3u/*
 .env
 package-lock.json
 channels.m3u
